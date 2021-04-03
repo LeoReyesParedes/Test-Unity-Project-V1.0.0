@@ -12,7 +12,7 @@ public class ViewComputer : MonoBehaviour
         instance_view        = this;
         _panel_computer_list = GameObject.Find("Content_list");
     }
-    public void DrawUICustomer(){
+    public void DrawUIComputer(){
         GameObject computerTemplate = _panel_computer_list.transform.GetChild(0).gameObject;
         /// computerTemplate.SetActive(true);
 

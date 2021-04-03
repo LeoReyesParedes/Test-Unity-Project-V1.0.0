@@ -31,7 +31,7 @@ public class ControllerComputer : MonoBehaviour
             Debug.Log("Response " + www.downloadHandler.text);
 
             all_computer = JsonUtility.FromJson<Computer>(www.downloadHandler.text);
-            ViewComputer.instance_view.DrawUICustomer();
+            ViewComputer.instance_view.DrawUIComputer();
         }
     }
     public IEnumerator ComputersDelete(string id) {
